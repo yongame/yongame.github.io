@@ -1,0 +1,246 @@
+<?xml version='1.0' encoding='utf-8' standalone='no'?>
+<!--
+	퀘스트 처리 데이터
+	각 npc의 고유번호 : 실제 게임에서는 +500  = 501 번부터
+		무공일신 : 1
+		성신할배 : 2
+		성신할매 : 3
+		수련낭자 : 4
+		상도리     : 5
+		허중         : 6
+		식현         : 7
+		주호         : 8
+		얼음마왕 : 9
+		염로왕     : 10
+				
+		바리        : 20
+		공손        : 21
+		
+		나래이터 : 1000
+-->
+<quest>
+	<!-- 0 -->
+	<chapter title='[movie]' action='opening.swf'/>
+	<!-- 1 -->
+	<chapter title='[pass]' action='2'/>
+	<!-- 2 -->
+	<chapter title='[pass]' action='3'/>
+	<!-- 3 -->
+	<chapter title='[loadmap]' action='talk' interval='500' character='0' quest='0'/>
+	<!-- 4 -->
+	<chapter title='[talk]' sound="1" stop="1" next="40">
+		<talk talker='2' >어둠의 마을에 잘 왔다. 무장신선을 없애긴 했지만 |무장신선은 염로왕의 부하에 불과 하단다</talk>
+		<talk talker='2' >결국은 염로왕을 없애야지만 어둠의 기운을 없앨 수 있다는 뜻이지. </talk>
+		<talk talker='20'>네.. 그래서 아직 어둠의 기운이 사라지지 않은 거군요.</talk>
+		<talk talker='2' >그래,. 그리고, 자신의 부하를 잃은 염로왕이 불라국을 파괴하고,|오귀대왕을 죽이긴 했지만</talk>
+		<talk talker='2' >너무 슬퍼하지 말거라. 오귀대왕을 살릴수 있는 방법이 있단다. </talk>
+		<talk talker='20'>네? 정말이요? 아버지를 살릴 수 있단 말이예요?</talk>
+		<talk talker='2' >그렇단다. 어둠의 마을에는 세개의 진귀한 꽃들이 자라고 있는데 </talk>
+		<talk talker='2' >그 꽃들이 사람의 뼈를 살리고 살을 살리고 숨을 살릴 수 있단다. </talk>
+		<talk talker='2' >그러니까 그 삼생화를 찾으면 오귀 대왕을 살릴 수 있는거지. </talk>
+		<talk talker='2' >우선 어둠의 마을 가까운 곳에 있고, |사람의 뼈를 살린다는 뼈살이 꽃부터 찾아보거라. </talk>
+		<talk talker='2' >소문에 의하면 지옥수왕이 그 꽃을 지킨다고 하니까 조심하고!!</talk>
+	</chapter>
+	<!-- 5 -->
+	<chapter title='[talk]' sound="1" stop="1" next="39">
+		<talk talker='20'>아니... 이 불길한 기운은?? 무슨일이지?</talk>
+		<talk talker='20'>빨리 어둠의 마을로 돌아가서 할아버지께 여쭤봐야겠다.</talk>
+	</chapter>
+	<!-- 6 -->
+	<chapter title='[talk]' sound="1" stop="1" next="41">
+		<talk talker='2' >원래 염라국은 죽은자들이 심판을 받으러 오는 곳이었단다. </talk>
+		<talk talker='2' >죽은자들이 심판을 받기 위해 오는 길에|다시한번 환생 할 수 있는 기회를 주기 위해</talk>
+		<talk talker='2' >삼생화를 만들었고, 삼행화를 얻으면 죽은자도|다시 살아 날 수있는 거지</talk>
+		<talk talker='2' >하지만 함부로 꽃을 가져가지 못하도록 여러가지|저주들이 걸려 있다고 하더니 </talk>
+		<talk talker='2' >첫번째 꽃인 뼈살이 꽃의 저주로 어둠의 마을에|암흑의 북두성석이 올라왔구나..</talk>
+		<talk talker='2' >이 북두성석의 강한 암흑기운으로|도력이 약한 마을 사람들은 움직일 수가 없게 되었어. </talk>
+		<talk talker='20'>그럼 방법이 없는건가요? </talk>
+		<talk talker='2' >아니야 전설에 의하면 저주를 풀기 위해서는 |어둠의 숲에 있는 표식돌 7개를 찾아야 한다고 했어!</talk>
+		<talk talker='2' >그리고, 그 칠색 구슬을 가져다 |북두성석에 번호 순서대로 꽂아넣어야 한단다.</talk>
+		<talk talker='2' >당분간 저주 때문에 마을사람들과 대화가 되질 않을꺼야. |근처에 은둔촌을 찾아 보거라</talk>
+	</chapter>
+	<!-- 7 -->
+	<chapter title='[talk]' sound="1" stop="1" next='41'>
+		<talk talker='2' >뼈살이꽃의 저주로 마을사람들은 움직이지 못한단다. </talk>
+		<talk talker='2' >서쪽 으로 가면 저주의 영향을 받지 않는 은둔촌이라는 곳이 있으니까 </talk>
+		<talk talker='2' >급한일이 있을 경우에 찾아보도록 하거라.</talk>
+	</chapter>
+	<!-- 8 -->
+	<!--<chapter title='[movie]' action='scene2.swf'/>-->
+	<chapter title='[talk]' sound="1" stop="1" next='39'>
+		<talk talker='20'>칠색구슬을 모두 모았다!|빨리 어둠의 마을로 돌아가서 할아버지에게 물어봐야겠다.</talk>
+	</chapter>
+	<!--  9 -->
+	<chapter title='[talk]' sound="1" stop="1" next='39'>
+		<talk talker='2' >잘했다. 이제 마을의 저주도 풀렸으니|너는 어서 나머지 꽃을 구하러 떠나거라.</talk>
+	</chapter>
+	<!-- 10 -->
+	<chapter title='[talk]' sound="1" stop="1" next="43">
+		<talk talker='20'>윽! 뭔가 느낌이 이상해~ </talk>
+		<talk talker='9' >흐흐~ 나를 제거 하고 살살이꽃을 얻게 되겠지만 </talk>
+		<talk talker='9' >너는 살살이꽃의 저주로 이 순간 부터 생명이 점점 줄어들게 될 것이다. </talk>
+		<talk talker='9' >마물들을 죽여서 마물의 원기를 마셔야지만|생명이 줄어드는 것을 잠시 멈출 수 있는거지..흐흐</talk>
+		<talk talker='9' >평생 마물들이나 죽여가면서 살거라… </talk>
+		<talk talker='9' >내 불쌍해서 하나만 알려주지..</talk>
+		<talk talker='9' >어차피 흑마법사에게 죽게 되겠지만|저주를 풀려면 흑마법사의 심장이 필요하단다. ….흐하하~</talk>
+		<talk talker='20'>이..이런...</talk>
+	</chapter>
+	<!-- 11 -->
+	<chapter title='[talk]' sound="1" stop="1" next='44'>
+		<talk talker='20'>휴~ 겨우 살살이꽃의 저주가 풀렸구나.|어서 죽음의 교차로로 가봐야겠다.</talk>
+	</chapter>
+	<!-- 12 -->
+	<chapter title='[talk]' sound="1" stop="1" next='39'>
+		<talk talker='10'>네가 바리라는 놈이냐? </talk>
+		<talk talker='10'>감히 작은 꼬마놈이 나를 죽이겠다고 여기까지 찾아와? </talk>
+		<talk talker='10'>네 아비꼴을 보고도 겁을 상실한건지.. </talk>
+		<talk talker='10'>똑같이 당하고 싶은 게로구나.. </talk>
+		<talk talker='20'>너따위에게 복수를 하러 오지는 않았다. </talk>
+		<talk talker='20'>숨살이꽃만 넘겨 준다면 목숨만은 살려 주겠다.</talk>
+		<talk talker='10'>하하 가소롭구나.. 그 용기 만큼은 대견하다.. </talk>
+		<talk talker='10'>나에게 그 선한 기운을 넘기고 불라국을 다스리고 싶지 않느냐?</talk>
+		<talk talker='20'>말귀를 못알아 듣는구나. 영원히 악을 뿌리 뽑아야 겠구나"</talk>
+	</chapter>
+	<!-- 13 -->
+	<chapter title='[talk]' sound="1" stop="1" next='39'>
+		<talk talker='10'>네놈이 여긴 무슨일로 찾아 왔느냐?</talk>
+		<talk talker='20'>오귀대왕을 살리기 위해 숨살이꽃을 받으러 왔다.</talk>
+		<talk talker='10'>가소로운 놈. 감히 여기가 어디라고 …!!</talk>
+		<talk talker='20'>내 오귀대왕의 복수를 하려 했으나|순순히 숨살이꽃만 바친다면 목숨만은 살려 주겠다.</talk>
+	</chapter>
+	<!-- 14 -->
+	<chapter title='[pass]' action='15'/>
+	<!-- 15 -->
+	<chapter title='[pass]' action='16'/>
+	<!-- 16 -->
+	<chapter title='[pass]' action='17'/>
+	<!-- 17 -->
+	<chapter title='[pass]' action='18'/>
+	<!-- 18 -->
+	<chapter title='[pass]' action='19'/>
+	<!-- 19 -->
+	<chapter title='[pass]' action='20'/>
+	<!-- 20 -->
+	<chapter title='[pass]' action='21'/>
+	<!-- 21 -->
+	<chapter title='[pass]' action='22'/>
+	<!-- 22 -->
+	<chapter title='[pass]' action='23'/>
+	<!-- 23 -->
+	<chapter title='[pass]' action='24'/>
+	<!-- 24 -->
+	<chapter title='[pass]' action='25'/>
+	<!-- 25 -->
+	<chapter title='[pass]' action='26'/>
+	<!-- 26 -->
+	<chapter title='[pass]' action='27'/>
+	<!-- 27 -->
+	<chapter title='[pass]' action='28'/>
+	<!-- 28 -->
+	<chapter title='[pass]' action='29'/>
+	<!-- 29 -->
+	<chapter title='[pass]' action='30'/>
+	<!-- 30 -->
+	<chapter title='[movie]' action='event1.swf' next='5'/>
+	<!-- 31 -->
+	<chapter title='[movie]' action='event2.swf' next='9'/>
+	<!-- 32 -->
+	<chapter title='[movie]' action='event3.swf' next='10'/> <!--- 여기에 막코딩이 들어가 있습니다. -->
+	<!-- 33 -->
+	<chapter title='[movie]' action='event4.swf' next='12'/>
+	<!-- 34 -->
+	<chapter title='[movie]' action='ending.swf' next='35'/>
+	<!-- 35 -->
+	<chapter title='[movie]' action='epilogue.swf' next='37'/>
+	<!-- 36 -->
+	<chapter title='[movie]' action='event4.swf' next='13'/>
+	<!-- 37 -->
+	<chapter title='[movie]' action='thanks.swf' next='-1'/>
+	<!-- 38 -->
+	<chapter title='[pass]' action='39'/>
+	<!-- 39 -->
+	<chapter title='[play]'/>
+	<!-- 40 -->
+	<chapter title='삼생화 찾기' no='0' npc='502' money='0' experience='0' next='34' must='-1' startTalk='4' immediateComplete='1'>
+		<requireItems ti='7001' tq='1'/>
+		<requireItems ti='7002' tq='1'/>
+		<requireItems ti='7003' tq='1'/>
+		<talk>성신할배 : 너무 슬퍼하지 말거라. 오귀대왕을 살릴수 있는 방법이 있단다. 어둠의 마을에는 세개의 진귀한 꽃들이 자라고 있는데 이 꽃이 각각 사람의 뼈를 살리고 살을 살리고 숨을 살릴 수 있는 꽃이란다. 이 삼생화를 찾으면 오귀 대왕을 살릴 수 있단다. 우선 사람의 뼈를 살린다는 뼈살이 꽃부터 찾아보거라. 지옥수왕이 지키고 있다고 하니까 조심하거라</talk>
+		<mission>삼생화(뼈살이꽃, 살살이꽃, 숨살이꽃)를 찾는다. </mission>
+		<notcomplete>꼭 대왕님을 살릴수 있기를 빈다.</notcomplete>
+		<complete></complete>
+	</chapter>
+	<!-- 41 -->
+	<chapter title='뼈살이 꽃의 저주' no='1' npc='-1' money='0' experience='10000' next='8' must='0' startTalk='7' immediateComplete='1'>
+		<requireItems ti='7004' tq='1'/>
+		<requireItems ti='7005' tq='1'/>
+		<requireItems ti='7006' tq='1'/>
+		<requireItems ti='7007' tq='1'/>
+		<requireItems ti='7008' tq='1'/>
+		<requireItems ti='7009' tq='1'/>
+		<requireItems ti='7010' tq='1'/>
+		<talk>성신할배: 오래전부터 삼생화에는 여러가지 저주들이 걸려 있다고 하더니 뼈살이 꽃은 어둠의 마을에 저주를 내리게 되었구나. 뼈살이 꽃의 저주로 인해 북두성석이 올라왔단다. 이 북두성석의 강한 암흑기운으로 어둠의 마을 사람들이 움직이지 못하게 되었구나. 저주를 풀기 위해서는 어둠의 숲에 있는 표식돌에서 칠색 구슬을 가져다 북두성석에 꽂아넣어야 한단다.</talk>
+		<mission>칠색구슬을 모아 성신할배에게 가져가자.</mission>
+		<notcomplete>어서 칠색 구슬을 구해오거라.</notcomplete>
+		<complete>아주 잘했구나.</complete>
+		<requital ti='3006'/>
+	</chapter>
+	<!-- 42 -->
+	<chapter title='저주풀기' no='2' npc='502' money='1000' experience='10000' must='1' next='31'>
+		<getItems ti='7004' tq='1'/>
+		<getItems ti='7005' tq='1'/>
+		<getItems ti='7006' tq='1'/>
+		<getItems ti='7007' tq='1'/>
+		<getItems ti='7008' tq='1'/>
+		<getItems ti='7009' tq='1'/>
+		<getItems ti='7010' tq='1'/>
+		<talk>성신할배: 색깔구슬을 찾을 때 보았던 표식돌의 숫자를 기억하느냐? 북두성석에가서 그 숫자대로 칠색구슬을 꽂아 넣으면 저주가 풀릴게다.</talk>
+		<mission>칠색구슬을 순서에 맞게 북두성석에 넣어서 저주를 풀자.</mission>
+		<notcomplete>칠색구슬의 순서는 칠색구슬을 구한 곳에서 알수 있단다.</notcomplete>
+		<complete>아주 잘했다.</complete>
+		<requital ti='3006'/>
+	</chapter>
+	<!-- 43 -->
+	<chapter title='살살이 꽃의 저주' no='3' npc='-1' money='0' experience='100000' next='11' must='3' immediateComplete='1'>
+		<requireItems ti='7011' tq='50'/>
+		<talk>얼음마왕 : 흐흐~ 나를 제거 하고 살살이꽃을 얻게 되겠지만 너는 살살이꽃의 저주로 이 순간 부터 생명이 점점 줄어들게 될 것이다. 마물들을 죽여서 마물의 원기를 마셔야지만 생명이 줄어드는 것을 잠시 멈출 수 있는거지..흐흐 평생 마물들이나 죽여가면서 살거라… 내 불쌍해서 하나만 알려주지..어차피 흑마법사에게 죽게 되겠지만 저주를 풀려면 흑마법사의 심장이 필요하단다. ….흐하하~</talk>
+		<mission>흑마법사의 심장 50개를 모아 살살이꽃의 저주를 풀자.</mission>
+		<notcomplete></notcomplete>
+		<complete></complete>
+		<requital ti='3006'/>
+	</chapter>
+	<!-- 44 -->
+	<chapter title='죽음의 교차로 찾기' no='4' npc='-1' money='0' experience='10000' immediateComplete='1'>
+		<talk>바리공주 : 휴~ 겨우 살살이 꽃의 저주가 풀렸구나. 어서 죽음의 교차로로 돌아가 봐야겠다.</talk>
+		<mission>죽음의 교차로로 가자.</mission>
+		<notcomplete></notcomplete>
+		<complete></complete>
+		<requital ti='3006'/>
+	</chapter>
+	<!-- 45 -->
+	<chapter title='시간의 방' no='5' npc='508' money='100' experience='100' nextNPC='6' repeat='1'>
+		<requireItems ti='7002' tq='1'/>
+		<talk></talk>
+		<mission>시간안에 몇마리 죽이기</mission>
+		<notcomplete></notcomplete>
+		<complete></complete>
+		<requital ti='3006'/>
+	</chapter>
+	<!-- 46 -->
+	<chapter title='사물의 방' no='6' npc='508' money='100' experience='100' nextNPC='6' repeat='1'>
+		<requireItems ti='7002' tq='1'/>
+		<talk></talk>
+		<mission>아이템 몇개 모아오기</mission>
+		<notcomplete></notcomplete>
+		<complete></complete>
+		<requital ti='3006'/>
+	</chapter>
+	<!-- 47 -->
+
+	<!-- 48 -->
+
+	<!-- 49 -->
+	<chapter title='[pass]' action='40'/>
+	<!-- 50 -->
+	<chapter title='[movie]' action='closing.swf'/>
+</quest>
